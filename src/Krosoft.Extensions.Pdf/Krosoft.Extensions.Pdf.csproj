@@ -10,7 +10,7 @@
 		<PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.13" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Krosoft.Extensions.Core" Version="2026.9.12.10423" />
+		<PackageReference Include="Krosoft.Extensions.Core" Version="2026.10.14.11429" />
 		<PackageReference Include="PDFsharp" Version="6.2.4" />
 	</ItemGroup>
 </Project>
