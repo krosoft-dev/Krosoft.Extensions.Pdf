@@ -1,8 +1,8 @@
 ﻿using Krosoft.Extensions.Core.Extensions;
 using Krosoft.Extensions.Core.Tools;
 using Krosoft.Extensions.Pdf.Interfaces;
-using PdfSharpCore.Pdf;
-using PdfSharpCore.Pdf.IO;
+using PdfSharp.Pdf;
+using PdfSharp.Pdf.IO;
 
 namespace Krosoft.Extensions.Pdf.Services;
 
