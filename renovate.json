@@ -1,5 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>krosoft-dev/krosoft-tooling-renovate:dotnet"],
-  "assignees": ["krosoft-dev"]
+  "assignees": ["krosoft-dev"],
+  "packageRules": [
+    {
+      "description": "PDFsharp est passé de MIT à AGPL-3.0 à partir de la 6.5.0",
+      "matchPackageNames": ["PDFsharp"],
+      "allowedVersions": "<6.5.0"
+    }
+  ]
 }
