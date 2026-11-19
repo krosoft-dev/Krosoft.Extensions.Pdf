@@ -3,7 +3,7 @@
     <EmbeddedResource Include="..\..\files\*.pdf" LinkBase="Files" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Krosoft.Extensions.Testing" Version="2026.11.17.14009" />
+    <PackageReference Include="Krosoft.Extensions.Testing" Version="2026.11.18.14103" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\Krosoft.Extensions.Pdf\Krosoft.Extensions.Pdf.csproj" />
